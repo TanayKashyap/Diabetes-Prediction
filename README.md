@@ -26,7 +26,7 @@ To run this notebook, you will need to have the following libraries installed in
 - statsmodels
 - joblib
 
-You can install them using pip: pip install pandas numpy matplotlib seaborn scikit-learn scipy statsmodels joblib
+You can install them using pip: `pip install pandas numpy matplotlib seaborn scikit-learn scipy statsmodels joblib`
 
 ## Usage
 
@@ -35,7 +35,8 @@ You can install them using pip: pip install pandas numpy matplotlib seaborn scik
 3.  **Model Evaluation:** The notebook provides metrics such as accuracy, precision, recall, and F1 score to evaluate the performance of the weighted logistic regression model. It also includes a precision-recall curve.
 4.  **Explore Thresholds:** The notebook demonstrates how changing the prediction threshold can impact the precision and recall of the model.
 5.  **Saved Artifacts:** The trained model's weights and bias are saved as `weights.npy` and `bias.npy`, and the `StandardScaler` is saved as `scaler.pkl` for use in a risk dashboard.
-6.  You can run the dashboard with streamlit run risk_dashboard.py
+6.  You can run the dashboard with `streamlit run risk_dashboard.py`
+7.  Remeber to have `weights.npy`, `bias.npy` and `scaler.pkl` in the same folder as `risk_dashboard.py` for the dashboard to correctly run
 
 ## Support
 
